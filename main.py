@@ -5,6 +5,16 @@ Print the phrase "BELIEVE and ACHEIVE" designed with font block.'''
 
 from art import *
 
+art1 = text2art("BELIEVE and ACHEIVE",font='block', chr_ignore=True) # Return ASCII text with block font
+print(art1)
 
-Art=text2art("BELIEVE and ACHEIVE",font='block', chr_ignore=True) # Return ASCII text with block font
-print(Art)
+print()
+print()
+
+
+'''Bonus
+Come up with different phrases with different art and decoration'''
+
+#WORK HARD
+art2 = text2art('WORK HARD', font='cybermedum',decoration='random')
+print(art2)
