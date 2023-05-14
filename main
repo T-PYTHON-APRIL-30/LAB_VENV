@@ -1,0 +1,7 @@
+
+from art import *
+
+text = "BELIEVE and ACHEIVE"
+art = text2art(text, font ='block')
+
+print(art)
