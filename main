@@ -1,7 +1,12 @@
-
+# import
 from art import *
 
+# text want to be test
 text = "BELIEVE and ACHEIVE"
 art = text2art(text, font ='block')
-
 print(art)
+
+# bonus
+print(text2art("Lena", font = "bubble"))
+tprint("Lena","rnd-xlarge")
+print(text2art("Lena", font = "graffiti"))
